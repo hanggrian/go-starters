@@ -12,6 +12,10 @@ insert_final_newline = true
 max_line_length = 80
 
 [*.{go,mod}]
+indent_style = tab
 indent_size = 4
 max_line_length = 100
+
+[Makefile]
+indent_size = 4
 indent_style = tab

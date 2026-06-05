@@ -18,12 +18,12 @@ HUGO_DIR='website/public/' && readonly HUGO_DIR
 
 warn 'Testing application...'
 
-echo '(1/3) Running Just commands'
+echo '(1/3) Running Make commands'
 cd "$APPLICATION" || exit 1
-just install
-just format
-just cov
-just generate-website
+make install
+make format
+make cov
+make generate-website
 cd "$APPLICATION" || exit 1
 
 echo '(2/3) Checking coverage file'
@@ -38,12 +38,12 @@ fi
 
 warn 'Testing library...'
 
-echo '(1/4) Running Just commands'
+echo '(1/4) Running Make commands'
 cd "$LIBRARY" || exit 1
-just install
-just format
-just cov
-just generate-website
+make install
+make format
+make cov
+make generate-website
 cd "$LIBRARY" || exit 1
 
 echo '(2/4) Checking coverage file'

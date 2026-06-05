@@ -16,7 +16,7 @@ library | [testing] | [Go Packages] | [doc2go], [Hugo Book] | &check;
   suite.
 - Standard formatter [gofmt](https://pkg.go.dev/cmd/gofmt/).
 - [Coverage profiling](https://go.dev/doc/build-cover/) for integration tests.
-- [Just](https://github.com/casey/just/) task runner.
+- Tasks defined in [Makefile](https://www.gnu.org/software/make/).
 
 ## Project layout
 

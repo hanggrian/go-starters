@@ -9,7 +9,5 @@ runs:
       go-version: 1.25
       cache: true
 
-  - uses: extractions/setup-just@v4
-
   - shell: bash
-    run: just install true
+    run: make install CLEAN=true

@@ -2,6 +2,8 @@ module github.com/johndoe/library
 
 go 1.25.0
 
+toolchain go1.25.11
+
 require (
 	fyne.io/fyne/v2 v2.7.4
 	go.uber.org/mock v0.6.0
